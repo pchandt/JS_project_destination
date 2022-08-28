@@ -22,74 +22,75 @@
   </head>
 
   <body>
-    
-      <div class="green_box"></div>
+    <div class="green_box">
+      <h1>Vacation Destination WishList</h1>
+      <p>
+        Found exciting places to visit on your next vacation? Use the form below
+        to add them to your wishlist
+      </p>
+    </div>
 
-      <div class="container">
-          
-          <div class="red_box">
+    <div class="container-fluid">
+      <div class="red_box">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label"
+            >Destination name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Enter the name of the destination"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Location</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Where is it located?"
+          />
+        </div>
 
-            <div class="mb-3">
-              <label for="formGroupExampleInput" class="form-label"
-                >Example label</label-
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput"
-                placeholder="Example input placeholder"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label"
-                >Another label</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput2"
-                placeholder="Another input placeholder"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput" class="form-label"
-                >Example label</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput"
-                placeholder="Example input placeholder"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label"
-                >Another label</label
-              >
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
-              </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Photo</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Enter an image url of the place"
+          />
+        </div>
 
-              <!-- <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput2"
-                placeholder="Another input placeholder"
-              /> -->
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Description</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="2"
+            placeholder="Where is it located?"
+          ></textarea>
+        </div>
 
-            </div>
-          </div>
-
-          <div class="blue_box">
-
-            <div class="purple_box"></div>
-            <div class="yellow_box"></div>
-          
+        <div class="d-grid gap-2 col-5 mx-auto">
+          <!-- <button class="btn btn-primary" type="button">Button</button> -->
+          <button type="button" class="btn btn-primary btn-sm">
+            Add to list
+          </button>
+        </div>
       </div>
 
-
-
+      <div class="blue_box">
+        <div class="purple_box">
+          <p class="fw-bold">Enter destination details</p>
+        </div>
+        <div class="yellow_box"></div>
+      </div>
     </div>
 
     <script
